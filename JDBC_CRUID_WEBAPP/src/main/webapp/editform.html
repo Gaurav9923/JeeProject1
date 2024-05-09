@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Student Information Form</title>
+</head>
+<body bgcolor="lightblue">
+    <br />
+    <br />
+    <br />
+    <form method="get" action="./controller/editform">
+        <table align="center">
+            <tr>
+                <td>STUDENT_ROLL</td>
+                <td><input type="text" name="sroll" readonly /></td>
+            </tr>
+            <tr>
+                <td>NAME</td>
+                <td><input type="text" name="name" /></td>
+            </tr>
+            <tr>
+                <td>COURSE</td>
+                <td><input type="text" name="course" /></td>
+            </tr>
+            <tr>
+                <td>AGE</td>
+                <td><input type="number" name="age" /></td>
+            </tr>
+            <tr>
+                <td>GENDER</td>
+                <td>
+                    <select name="gender">
+                        <option value="male">M</option>
+                        <option value="female">F</option>
+                        <option value="other">O</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="GETEDITPAGE" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
